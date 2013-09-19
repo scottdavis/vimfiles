@@ -28,5 +28,5 @@ endif
 
 " Customize to your needs...
 Bundle 'cakebaker/scss-syntax.vim'
-colorscheme railscasts
-colors railscasts
+
+
