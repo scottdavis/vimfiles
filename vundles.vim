@@ -86,6 +86,7 @@ endif
 " Ruby
 if count(g:vundles, 'ruby')
   Bundle 'tpope/vim-rails'
+  Bundle 'tpope/vim-haml'
 endif
 
 " Misc
