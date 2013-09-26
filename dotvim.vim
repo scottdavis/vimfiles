@@ -103,7 +103,7 @@ if has("user_commands")
   if !filereadable(vundle_readme)
     echo "Installing Vundle.."
     echo ""
-    silent !mkdir -p ~/.vim/bundle
+    silent !mkdir -p ~/dotfiles/vimfiles/bundle
     silent !git clone https://github.com/gmarik/vundle.git ~/dotfiles/vimfiles/bundle/vundle
     let VundleInstalled=1
   endif

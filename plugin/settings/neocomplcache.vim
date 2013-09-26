@@ -54,4 +54,4 @@ if exists('g:loaded_neocomplcache')
 endif
 
 " Tell Neosnippet about the other snippets
-let g:neosnippet#snippets_directory='~/.vim/bundle/snipmate-snippets/snippets'
+let g:neosnippet#snippets_directory='~/dotfiles/vimfiles/bundle/snipmate-snippets/snippets'
