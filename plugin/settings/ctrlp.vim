@@ -7,7 +7,7 @@
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-let g:ctrlp_map = '<c-p>'
+let g:ctrlp_map = '<c-t>'
 let g:ctrlp_cmd = 'CtrlPMRU'
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc
