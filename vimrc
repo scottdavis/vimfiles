@@ -13,7 +13,7 @@ source ~/.vim/dotvim.vim
 if has("user_commands")
   set nocompatible
   filetype off
-  set rtp+=~/dotfile/vimfiles/bundle/vundle/
+  set rtp+=~/dotfiles/vimfiles/bundle/vundle/
   call vundle#rc()
   let g:vundles=['general', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc']
   "let g:vundles=['general', 'programming']
