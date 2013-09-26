@@ -20,6 +20,7 @@ if count(g:vundles, 'general')
   Bundle 'calendar.vim--Matsumoto'
   Bundle 'kien/ctrlp.vim'
   Bundle 'vim-scripts/sessionman.vim'
+  Bundle 'vim-scripts/Align'
   Bundle 'matchit.zip'
   "  Bundle 'Lokaltog/vim-powerline'
   Bundle 'Lokaltog/vim-easymotion'
