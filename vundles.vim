@@ -36,6 +36,9 @@ if count(g:vundles, 'general')
   Bundle 'k-takata/hg-vim'
   Bundle 'bling/vim-airline'
   Bundle 'puppetlabs/puppet-syntax-vim'
+  Bundle 'file-line'
+  Bundle 'LargeFile'
+  Bundle 'camelcasemotion'
   if v:version > 700
     Bundle 'Shougo/vimproc'
     Bundle 'Shougo/vimshell'
