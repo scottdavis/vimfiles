@@ -13,6 +13,7 @@ Bundle 'gmarik/vundle'
 " General
 if count(g:vundles, 'general')
   Bundle 'scrooloose/nerdtree'
+  Bundle 'scrooloose/nerdcommenter'
   Bundle 'altercation/vim-colors-solarized'
   Bundle 'tpope/vim-surround'
   Bundle 'Raimondi/delimitMate'
