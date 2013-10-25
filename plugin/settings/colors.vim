@@ -11,5 +11,5 @@ if has("user_commands")
   set t_Co=256
   let g:solarized_termtrans = 1
   set background=dark
-  colorscheme grb256
+  colorscheme twilight256
 endif
