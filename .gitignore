@@ -8,10 +8,10 @@
 #
 
 .*
-#bundle
+bundle
 sessions
 spell
 !.dotvim
 !.gitignore
 !.gitmodules
-
+!bundle/vundle
