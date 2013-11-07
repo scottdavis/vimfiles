@@ -15,5 +15,4 @@ if has("user_commands")
     colorscheme twilight256
   catch
   endtry
-  endif
 endif
