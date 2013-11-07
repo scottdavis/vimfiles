@@ -11,5 +11,7 @@ if has("user_commands")
   set t_Co=256
   let g:solarized_termtrans = 1
   set background=dark
-  colorscheme twilight256
+  if exists(":Bundle")
+    colorscheme twilight256
+  endif
 endif
