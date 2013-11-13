@@ -13,20 +13,18 @@ Bundle 'gmarik/vundle'
 " General
 if count(g:vundles, 'general')
   Bundle 'scrooloose/nerdtree'
-  Bundle 'scrooloose/nerdcommenter'
-  Bundle 'altercation/vim-colors-solarized'
   Bundle 'tpope/vim-surround'
   Bundle 'Raimondi/delimitMate'
   Bundle 'vimwiki'
-  Bundle 'calendar.vim--Matsumoto'
   Bundle 'kien/ctrlp.vim'
   Bundle 'vim-scripts/sessionman.vim'
   Bundle 'vim-scripts/Align'
   Bundle 'matchit.zip'
-  "  Bundle 'Lokaltog/vim-powerline'
+"  Bundle 'Lokaltog/powerline'
   Bundle 'Lokaltog/vim-easymotion'
   Bundle 'jistr/vim-nerdtree-tabs'
   Bundle 'flazz/vim-colorschemes'
+  "Bundle 'tpope/vim-vividchalk'
   Bundle 'corntrace/bufexplorer'
   Bundle 'kien/ctrlp.vim'
   Bundle 'austintaylor/vim-indentobject'
@@ -34,16 +32,11 @@ if count(g:vundles, 'general')
   Bundle 'sudo.vim'
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'tpope/vim-fugitive'
-  Bundle 'k-takata/hg-vim'
   Bundle 'bling/vim-airline'
   Bundle 'puppetlabs/puppet-syntax-vim'
   Bundle 'file-line'
   Bundle 'LargeFile'
   Bundle 'camelcasemotion'
-  if v:version > 700
-    Bundle 'Shougo/vimproc'
-    Bundle 'Shougo/vimshell'
-  endif
 endif
 
 " General Programming
@@ -88,12 +81,14 @@ endif
 if count(g:vundles, 'html')
   Bundle 'HTML-AutoCloseTag'
   Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
+  Bundle 'cakebaker/scss-syntax.vim'
 endif
 
 " Ruby
 if count(g:vundles, 'ruby')
   Bundle 'tpope/vim-rails'
   Bundle 'tpope/vim-haml'
+  Bundle 'thoughtbot/vim-rspec'
 endif
 
 " Misc

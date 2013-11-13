@@ -27,6 +27,5 @@ if has("user_commands")
 endif
 
 " Customize to your needs...
-Bundle 'cakebaker/scss-syntax.vim'
 set nofoldenable
 
