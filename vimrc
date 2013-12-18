@@ -28,4 +28,5 @@ endif
 
 " Customize to your needs...
 set nofoldenable
-
+set mouse=a             " hold shift to copy xterm
+set ttymouse=xterm2     " necessary for gnu screen & mouse
