@@ -30,3 +30,17 @@ endif
 set nofoldenable
 set mouse=a             " hold shift to copy xterm
 set ttymouse=xterm2     " necessary for gnu screen & mouse
+" for moving between split windows with ease:
+" up one window, maximized
+map <C-j> <C-w>j<C-w>80+
+" down one window, maximized
+map <C-k> <C-w>k<C-w>80+
+" maximize current window
+map <C-h> <C-w>80+
+" all windows equal height
+map <C-i> <C-w>=
+" bump size
+map <Leader><Up> <C-w>15+<Leader>
+map <Leader><Down> <C-w>15-<Leader>
+map <Leader><S-Up> <C-w>15><Leader>
+map <Leader><S-Down> <C-w>15<<Leader>
