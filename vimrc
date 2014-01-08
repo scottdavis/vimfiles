@@ -40,7 +40,7 @@ map <C-h> <C-w>80+
 " all windows equal height
 map <C-i> <C-w>=
 " bump size
-map <Leader><Up> <C-w>15+<Leader>
-map <Leader><Down> <C-w>15-<Leader>
-map <Leader><S-Up> <C-w>15><Leader>
-map <Leader><S-Down> <C-w>15<<Leader>
+map <Leader><Left> :vertical resize -15<cr><Leader>
+map <Leader><Right> :vertical resize +15<cr><Leader>
+map <Leader><S-Up> :vertical resize 15><cr><Leader>
+map <Leader><S-Down> :vertical resize 15<<cr><Leader>
