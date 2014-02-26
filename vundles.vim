@@ -1,5 +1,5 @@
 "
-" dotphiles : https://github.com/dotphiles/dotphiles
+
 "
 " Essential vim plugins!
 "
@@ -50,7 +50,7 @@ if count(g:vundles, 'programming')
   if v:version > 700
     Bundle 'scrooloose/syntastic'
     Bundle 'majutsushi/tagbar'
-    Bundle 'Shougo/neocomplcache'
+    Bundle 'Shougo/neocomplete'
     Bundle 'Shougo/neosnippet'
     Bundle 'Indent-Guides'
   endif
