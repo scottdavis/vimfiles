@@ -52,6 +52,7 @@ if count(g:vundles, 'programming')
     Bundle 'majutsushi/tagbar'
     Bundle 'Shougo/neocomplete'
     Bundle 'Shougo/neosnippet'
+    Bundle 'Shougo/neosnippet-snippets'
     Bundle 'Indent-Guides'
   endif
 endif
