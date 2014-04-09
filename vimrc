@@ -29,9 +29,9 @@ if has("user_commands")
 endif
 
 " Customize to your needs...
-set nofoldenable
+set foldenable
 set foldlevelstart=99
-set foldmethod=syntax
+set foldmethod=indent
 set mouse=a             " hold shift to copy xterm
 set ttymouse=xterm2     " necessary for gnu screen & mouse
 " for moving between split windows with ease:
