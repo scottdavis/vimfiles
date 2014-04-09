@@ -19,21 +19,21 @@ if count(g:vundles, 'general')
   Bundle 'kien/ctrlp.vim'
   Bundle 'vim-scripts/sessionman.vim'
   Bundle 'vim-scripts/Align'
-  Bundle 'matchit.zip'
+  "Bundle 'matchit.zip'
 "  Bundle 'Lokaltog/powerline'
   Bundle 'Lokaltog/vim-easymotion'
   Bundle 'jistr/vim-nerdtree-tabs'
   Bundle 'flazz/vim-colorschemes'
   "Bundle 'tpope/vim-vividchalk'
-  Bundle 'corntrace/bufexplorer'
+  "Bundle 'corntrace/bufexplorer'
   Bundle 'kien/ctrlp.vim'
   Bundle 'austintaylor/vim-indentobject'
-  Bundle 'SearchComplete'
+  "Bundle 'SearchComplete'
   Bundle 'sudo.vim'
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'tpope/vim-fugitive'
   Bundle 'bling/vim-airline'
-  Bundle 'puppetlabs/puppet-syntax-vim'
+  "Bundle 'puppetlabs/puppet-syntax-vim'
   Bundle 'file-line'
   Bundle 'LargeFile'
   Bundle 'camelcasemotion'
@@ -45,11 +45,10 @@ if count(g:vundles, 'programming')
   Bundle 'scrooloose/nerdcommenter'
   Bundle 'godlygeek/tabular'
   Bundle 'ack.vim'
-  Bundle 'tpope/vim-surround'
   Bundle 'tpope/vim-dispatch'
   if v:version > 700
     Bundle 'scrooloose/syntastic'
-    Bundle 'majutsushi/tagbar'
+    "Bundle 'majutsushi/tagbar'
     Bundle 'Shougo/neocomplete'
     Bundle 'Shougo/neosnippet'
     Bundle 'Shougo/neosnippet-snippets'
@@ -65,16 +64,16 @@ endif
 " Python
 if count(g:vundles, 'python')
   " Pick either python-mode or pyflakes & pydoc
-  Bundle 'klen/python-mode'
+  "Bundle 'klen/python-mode'
   Bundle 'python.vim'
-  Bundle 'python_match.vim'
-  Bundle 'pythoncomplete'
+  "Bundle 'python_match.vim'
+  "Bundle 'pythoncomplete'
 endif
 
 " Javascript
 if count(g:vundles, 'javascript')
   Bundle 'leshill/vim-json'
-  Bundle 'groenewege/vim-less'
+  "Bundle 'groenewege/vim-less'
   Bundle 'taxilian/vim-web-indent'
   Bundle 'kchmck/vim-coffee-script'
 endif
@@ -98,6 +97,6 @@ if count(g:vundles, 'misc')
   Bundle 'spf13/vim-markdown'
   Bundle 'spf13/vim-preview'
   Bundle 'tpope/vim-cucumber'
-  Bundle 'Puppet-Syntax-Highlighting'
+  "Bundle 'Puppet-Syntax-Highlighting'
 endif
 
