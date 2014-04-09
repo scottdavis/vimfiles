@@ -9,6 +9,7 @@
 
 " Call dotvim
 source ~/dotfiles/vimfiles/dotvim.vim
+source ~/dotfiles/vimfiles/autowatch.vim
 
 if has("user_commands")
   set nocompatible
