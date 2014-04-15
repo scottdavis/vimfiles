@@ -34,7 +34,11 @@ set foldenable
 set foldlevelstart=99
 set foldmethod=indent
 set mouse=a             " hold shift to copy xterm
-set ttymouse=xterm2     " necessary for gnu screen & mouse
+if has("mouse_sgr")
+  set ttymouse=sgr
+else
+  set ttymouse=xterm2
+end
 " for moving between split windows with ease:
 " up one window, maximized
 map <C-j> <C-w>j<C-w>80+
