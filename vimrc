@@ -34,6 +34,10 @@ set foldenable
 set foldlevelstart=99
 set foldmethod=indent
 set mouse=a             " hold shift to copy xterm
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set expandtab
 if has("mouse_sgr")
   set ttymouse=sgr
 else
