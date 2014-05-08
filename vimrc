@@ -9,6 +9,7 @@
 
 " Call dotvim
 source ~/dotfiles/vimfiles/dotvim.vim
+source ~/dotfiles/vimfiles/autowatch.vim
 
 if has("user_commands")
   set nocompatible
@@ -17,7 +18,9 @@ if has("user_commands")
   call vundle#rc()
   let g:vundles=['general', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc']
   "let g:vundles=['general', 'programming']
-  let g:neocomplcache_enable_at_startup = 1
+  let g:acp_enableAtStartup = 0
+  " Use neocomplete.
+   let g:neocomplete#enable_at_startup = 1
   " Tell Neosnippet about the other snippets
   let g:neosnippet#snippets_directory='~/dotfiles/vimfiles/bundle/snipmate-snippets/snippets'
   " Load 'vundles'
@@ -27,8 +30,14 @@ if has("user_commands")
 endif
 
 " Customize to your needs...
-set nofoldenable
+set foldenable
+set foldlevelstart=99
+set foldmethod=indent
 set mouse=a             " hold shift to copy xterm
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set expandtab
 " for moving between split windows with ease:
 " up one window, maximized
 map <C-j> <C-w>j<C-w>80+
