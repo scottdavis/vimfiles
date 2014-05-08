@@ -29,7 +29,6 @@ endif
 " Customize to your needs...
 set nofoldenable
 set mouse=a             " hold shift to copy xterm
-set ttymouse=xterm2     " necessary for gnu screen & mouse
 " for moving between split windows with ease:
 " up one window, maximized
 map <C-j> <C-w>j<C-w>80+
@@ -44,3 +43,8 @@ map <Leader><Left> :vertical resize -15<cr><Leader>
 map <Leader><Right> :vertical resize +15<cr><Leader>
 map <Leader><S-Up> :vertical resize 15><cr><Leader>
 map <Leader><S-Down> :vertical resize 15<<cr><Leader>
+if has("mouse_sgr")
+  set ttymouse=sgr
+else
+  set ttymouse=xterm2
+end
