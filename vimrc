@@ -33,7 +33,6 @@ endif
 set foldenable
 set foldlevelstart=99
 set foldmethod=indent
-set mouse=a             " hold shift to copy xterm
 set expandtab
 set tabstop=4
 set shiftwidth=4
@@ -52,8 +51,16 @@ map <Leader><Left> :vertical resize -15<cr><Leader>
 map <Leader><Right> :vertical resize +15<cr><Leader>
 map <Leader><S-Up> :vertical resize 15><cr><Leader>
 map <Leader><S-Down> :vertical resize 15<<cr><Leader>
-if has("mouse_sgr")
-  set ttymouse=sgr
+" macvim
+if has("gui_running")
+  set guioptions-=T
+  set mousehide
 else
-  set ttymouse=xterm2
-end
+  set mouse=a
+  if has("mouse_sgr")
+    set ttymouse=sgr
+  else
+    set ttymouse=xterm2
+  end
+endif
+set pastetoggle=<F2>
