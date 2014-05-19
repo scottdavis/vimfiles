@@ -57,3 +57,16 @@ map <Leader><Left> :vertical resize -15<cr><Leader>
 map <Leader><Right> :vertical resize +15<cr><Leader>
 map <Leader><S-Up> :vertical resize 15><cr><Leader>
 map <Leader><S-Down> :vertical resize 15<<cr><Leader>
+
+function! OutdoorMode()
+  colorscheme AutumnLeaf
+endfunction
+
+function! NormalMode()
+    colorscheme twilight256
+endfunction
+
+
+command! OutdoorMode :call OutdoorMode()
+command! NormalMode :call NormalMode()
+
