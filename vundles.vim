@@ -16,7 +16,6 @@ if count(g:vundles, 'general')
   Bundle 'tpope/vim-surround'
   Bundle 'Raimondi/delimitMate'
   Bundle 'vimwiki'
-  Bundle 'kien/ctrlp.vim'
   Bundle 'vim-scripts/sessionman.vim'
   Bundle 'vim-scripts/Align'
   "Bundle 'matchit.zip'

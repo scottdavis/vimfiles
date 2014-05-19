@@ -33,16 +33,10 @@ endif
 set foldenable
 set foldlevelstart=99
 set foldmethod=indent
-set mouse=a             " hold shift to copy xterm
 set expandtab
 set tabstop=4
 set shiftwidth=4
 set expandtab
-if has("mouse_sgr")
-  set ttymouse=sgr
-else
-  set ttymouse=xterm2
-end
 " for moving between split windows with ease:
 " up one window, maximized
 map <C-j> <C-w>j<C-w>80+
@@ -70,3 +64,16 @@ endfunction
 command! OutdoorMode :call OutdoorMode()
 command! NormalMode :call NormalMode()
 
+" macvim
+if has("gui_running")
+  set guioptions-=T
+  set mousehide
+else
+  set mouse=a
+  if has("mouse_sgr")
+    set ttymouse=sgr
+  else
+    set ttymouse=xterm2
+  end
+endif
+set pastetoggle=<F2>
