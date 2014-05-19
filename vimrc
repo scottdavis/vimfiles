@@ -53,7 +53,7 @@ map <Leader><S-Up> :vertical resize 15><cr><Leader>
 map <Leader><S-Down> :vertical resize 15<<cr><Leader>
 
 function! OutdoorMode()
-  colorscheme AutumnLeaf
+  colorscheme autumnleaf
 endfunction
 
 function! NormalMode()
