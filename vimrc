@@ -21,8 +21,6 @@ if has("user_commands")
   let g:acp_enableAtStartup = 0
   " Use neocomplete.
    let g:neocomplete#enable_at_startup = 1
-  " Tell Neosnippet about the other snippets
-  let g:neosnippet#snippets_directory='~/dotfiles/vimfiles/bundle/snipmate-snippets/snippets'
   " Load 'vundles'
   source ~/dotfiles/vimfiles/vundles.vim
   " Add extra bundles here...
