@@ -75,3 +75,4 @@ else
   end
 endif
 set pastetoggle=<F2>
+nmap <F8> :TagbarToggle<CR>

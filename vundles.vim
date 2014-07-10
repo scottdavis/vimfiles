@@ -47,7 +47,7 @@ if count(g:vundles, 'programming')
   Bundle 'tpope/vim-dispatch'
   if v:version > 700
     Bundle 'scrooloose/syntastic'
-    "Bundle 'majutsushi/tagbar'
+    Bundle 'majutsushi/tagbar'
     Bundle 'Shougo/neocomplete'
     Bundle 'Shougo/neosnippet'
     Bundle 'Shougo/neosnippet-snippets'
