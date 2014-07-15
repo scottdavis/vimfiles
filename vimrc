@@ -13,7 +13,6 @@ source ~/dotfiles/vimfiles/autowatch.vim
 
 if has("user_commands")
   set nocompatible
-  filetype off
   set rtp+=~/dotfiles/vimfiles/bundle/vundle/
   call vundle#rc()
   let g:vundles=['general', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc']
@@ -31,6 +30,7 @@ endif
 set foldenable
 set foldlevelstart=99
 set foldmethod=indent
+" Tabs
 set expandtab
 set tabstop=4
 set shiftwidth=4
@@ -76,3 +76,7 @@ else
 endif
 set pastetoggle=<F2>
 nmap <F8> :TagbarToggle<CR>
+
+
+syntax enable
+filetype plugin indent on

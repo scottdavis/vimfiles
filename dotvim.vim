@@ -50,12 +50,18 @@ set autoindent          " automatically indent new line
 set ts=4                " number of spaces in a tab
 set sw=4                " number of spaces for indent
 set et                  " expand tabs into spaces
-
-" mouse settings
-if has("mouse")
+" Mouse settings
+if has("gui_running")
+  set guioptions-=T
+  set mousehide
+else
   set mouse=a
+  if has("mouse_sgr")
+    set ttymouse=sgr
+  else
+    set ttymouse=xterm2
+  end
 endif
-set mousehide           " Hide mouse pointer on insert mode."
 
 " search settings
 set incsearch           " Incremental search
