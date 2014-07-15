@@ -13,8 +13,9 @@ source ~/dotfiles/vimfiles/autowatch.vim
 
 if has("user_commands")
   set nocompatible
+  filetype off
   set rtp+=~/dotfiles/vimfiles/bundle/vundle/
-  call vundle#rc()
+  call vundle#begin()
   let g:vundles=['general', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc']
   "let g:vundles=['general', 'programming']
   let g:acp_enableAtStartup = 0
@@ -24,6 +25,8 @@ if has("user_commands")
   source ~/dotfiles/vimfiles/vundles.vim
   " Add extra bundles here...
   " Bundle 'reponame'
+  call vundle#end()
+  filetype plugin indent on
 endif
 
 " Customize to your needs...
