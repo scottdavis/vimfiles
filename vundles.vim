@@ -89,6 +89,7 @@ if count(g:vundles, 'ruby')
   Bundle 'tpope/vim-rails'
   Bundle 'tpope/vim-haml'
   Bundle 'thoughtbot/vim-rspec'
+  Bundle 'slim-template/vim-slim.git'
 endif
 
 " Misc
