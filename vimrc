@@ -62,17 +62,5 @@ endfunction
 command! OutdoorMode :call OutdoorMode()
 command! NormalMode :call NormalMode()
 
-" macvim
-if has("gui_running")
-  set guioptions-=T
-  set mousehide
-else
-  set mouse=a
-  if has("mouse_sgr")
-    set ttymouse=sgr
-  else
-    set ttymouse=xterm2
-  end
-endif
 set pastetoggle=<F2>
 nmap <F8> :TagbarToggle<CR>
