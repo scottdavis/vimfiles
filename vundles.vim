@@ -37,6 +37,7 @@ if count(g:vundles, 'general')
   Bundle 'file-line'
   Bundle 'LargeFile'
   Bundle 'camelcasemotion'
+  Bundle 'Yggdroot/indentLine'
 endif
 
 " General Programming
