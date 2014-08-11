@@ -16,7 +16,7 @@ if has("user_commands")
   filetype off
   set rtp+=~/dotfiles/vimfiles/bundle/vundle/
   call vundle#begin()
-  let g:vundles=['general', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc']
+  let g:vundles=['general', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc', 'clojure']
   "let g:vundles=['general', 'programming']
   let g:acp_enableAtStartup = 0
   " Use neocomplete.

@@ -100,3 +100,10 @@ if count(g:vundles, 'misc')
   "Bundle 'Puppet-Syntax-Highlighting'
 endif
 
+" Clojure
+if count(g:vundles, 'clojure')
+  Bundle 'guns/vim-clojure-static'
+  Bundle 'tpope/vim-foreplay'
+  Bundle 'kien/rainbow_parentheses.vim'
+endif
+
