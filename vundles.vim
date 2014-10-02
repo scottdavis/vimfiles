@@ -9,6 +9,7 @@
 
 " Vundle itself
 Bundle 'gmarik/vundle'
+Bundle 'editorconfig/editorconfig-vim'
 
 " General
 if count(g:vundles, 'general')
