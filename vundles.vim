@@ -40,6 +40,7 @@ if count(g:vundles, 'programming')
   Bundle 'godlygeek/tabular'
   Bundle 'ack.vim'
   Bundle 'tpope/vim-dispatch'
+  Bundle 'wting/rust.vim'
   if v:version > 700
     Bundle 'scrooloose/syntastic'
     Bundle 'majutsushi/tagbar'
