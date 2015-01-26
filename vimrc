@@ -71,3 +71,4 @@ nmap <F8> :TagbarToggle<CR>
 
 syntax enable
 filetype plugin indent on
+filetype on
