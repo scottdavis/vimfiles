@@ -7,15 +7,21 @@
 "   Ben O'Hara <bohara@gmail.com>
 "
 
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
 " Call dotvim
 source ~/dotfiles/vimfiles/dotvim.vim
 source ~/dotfiles/vimfiles/autowatch.vim
-
 if has("user_commands")
-  set nocompatible
-  filetype off
-  set rtp+=~/dotfiles/vimfiles/bundle/vundle/
-  call vundle#begin()
   let g:vundles=['general', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc', 'clojure']
   "let g:vundles=['general', 'programming']
   let g:acp_enableAtStartup = 0
