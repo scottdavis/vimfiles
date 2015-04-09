@@ -19,8 +19,6 @@ if has("user_commands")
   let g:vundles=['general', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc', 'clojure']
   "let g:vundles=['general', 'programming']
   let g:acp_enableAtStartup = 0
-  " Use neocomplete.
-   let g:neocomplete#enable_at_startup = 1
   " Load 'vundles'
   source ~/dotfiles/vimfiles/vundles.vim
   " Add extra bundles here...

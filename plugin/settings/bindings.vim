@@ -37,9 +37,9 @@ nmap <leader>N :cp<CR>
 set completeopt=menuone,preview
 
 " driving me insane this thing
-command Q q
-command -nargs=* -complete=file W w <args>
-command -nargs=* -complete=file E e <args>
+"command Q q
+"command -nargs=* -complete=file W w <args>
+"command -nargs=* -complete=file E e <args>
 
 " center display after searching
 nnoremap n   nzz

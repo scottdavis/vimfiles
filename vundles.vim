@@ -1,15 +1,6 @@
-"
-" dotphiles : https://github.com/dotphiles/dotphiles
-"
-" Essential vim plugins!
-"
-" Authors:
-"   Ben O'Hara <bohara@gmail.com>
-"
 
 " Vundle itself
 Bundle 'gmarik/vundle'
-Bundle 'editorconfig/editorconfig-vim'
 
 " General
 if count(g:vundles, 'general')
@@ -31,6 +22,10 @@ if count(g:vundles, 'general')
   Bundle 'LargeFile'
   Bundle 'camelcasemotion'
   Bundle 'Yggdroot/indentLine'
+  Bundle 'kennethzfeng/vim-raml'
+  Bundle 'benekastah/neomake'
+  Bundle 'Valloric/YouCompleteMe'
+  Bundle 'editorconfig/editorconfig-vim'
 endif
 
 " General Programming
@@ -42,11 +37,7 @@ if count(g:vundles, 'programming')
   Bundle 'tpope/vim-dispatch'
   Bundle 'wting/rust.vim'
   if v:version > 700
-    Bundle 'scrooloose/syntastic'
     Bundle 'majutsushi/tagbar'
-    Bundle 'Shougo/neocomplete'
-    Bundle 'Shougo/neosnippet'
-    Bundle 'Shougo/neosnippet-snippets'
     Bundle 'Indent-Guides'
   endif
 endif
