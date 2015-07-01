@@ -8,7 +8,7 @@
 "
 
 let g:ctrlp_map = '<c-t>'
-let g:ctrlp_cmd = 'CtrlPMRU'
+let g:ctrlp_cmd = 'CtrlP'
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc
 
