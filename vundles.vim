@@ -26,6 +26,7 @@ if count(g:vundles, 'general')
   Bundle 'benekastah/neomake'
   Bundle 'Valloric/YouCompleteMe'
   Bundle 'editorconfig/editorconfig-vim'
+  Bundle 'tpope/vim-fugitive'
 endif
 
 " General Programming
