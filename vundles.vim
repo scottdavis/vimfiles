@@ -67,6 +67,7 @@ if count(g:vundles, 'javascript')
   " Type Script
   Bundle 'Quramy/tsuquyomi'
   Bundle 'leafgarland/typescript-vim'
+  Bundle 'Shougo/vimproc.vim'
 endif
 
 " HTML
