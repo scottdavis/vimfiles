@@ -64,7 +64,9 @@ if count(g:vundles, 'javascript')
   "Bundle 'groenewege/vim-less'
   Bundle 'taxilian/vim-web-indent'
   Bundle 'kchmck/vim-coffee-script'
+  " Type Script
   Bundle 'Quramy/tsuquyomi'
+  Bundle 'leafgarland/typescript-vim'
 endif
 
 " HTML
