@@ -29,6 +29,7 @@ if count(g:vundles, 'general')
   Bundle 'editorconfig/editorconfig-vim'
   Bundle 'tpope/vim-fugitive'
   Bundle 'vim-airline/vim-airline-themes'
+  Bundle 'elixir-lang/vim-elixir'
 endif
 
 " General Programming
