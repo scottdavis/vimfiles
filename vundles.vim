@@ -31,6 +31,7 @@ if count(g:vundles, 'general')
   Bundle 'vim-airline/vim-airline-themes'
   Bundle 'larrylv/ycm-elixir'
   Bundle 'elixir-lang/vim-elixir'
+  Bundle 'slashmili/alchemist.vim'
 endif
 
 " General Programming
