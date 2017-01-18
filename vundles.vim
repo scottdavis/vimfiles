@@ -95,6 +95,7 @@ if count(g:vundles, 'misc')
   Bundle 'spf13/vim-markdown'
   Bundle 'spf13/vim-preview'
   Bundle 'tpope/vim-cucumber'
+  Bundle 'jiangmiao/auto-pairs'
   "Bundle 'Puppet-Syntax-Highlighting'
 endif
 
